@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Guide Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Study Guide Hub</h1>
+        <p>Your companion for better learning</p>
+    </header>
+
+    <div class="container">
+        <h2>Select Your Details</h2>
+
+        <label>Choose Class:</label>
+        <select id="studentClass">
+            <option value="">--Select Class--</option>
+            <option value="10">Class 10</option>
+            <option value="11">Class 11</option>
+            <option value="12">Class 12</option>
+        </select>
+
+        <label>Choose Subject:</label>
+        <select id="subject">
+            <option value="">--Select Subject--</option>
+            <option value="Math">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Biology">Biology</option>
+        </select>
+
+        <button onclick="showGuide()">Get Study Guide</button>
+
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        ©️ 2026 Study Guide Hub
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
